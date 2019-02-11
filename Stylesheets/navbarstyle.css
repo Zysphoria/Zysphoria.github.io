@@ -1,3 +1,31 @@
-ul {
+* {
+  margin: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav li:first-child {
+  float: left;
+}
+
+.middle {
+  padding-left: 380px;
+}
+
+nav li a {
+  float: left;
+  display: block;
+  color: white;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
