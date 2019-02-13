@@ -1,18 +1,33 @@
 <!DOCTYPE HTML>
   <html>
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="Stylesheets/navbarstyle.css" type="text/css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
-    <header></header>
-    <nav>
-      <ul>
-        <li><a href="main.html">Home</a></li>
-        <li><a href="who-we-are.html">Who We Are</a></li>
-        <li class="middle"><a href="leadership.html">Leadership Development</a></li>
-        <li class="middle"><a href="career.html">Career Preparation</a></li>
-        <li class="middle"><a href="civic.html">Civic Responsibility</a></li>
-        <li class="middle"><a href="social.html">Social Awareness</a></li>
-        <li><a
-      </ul>
-    </nav>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <header></header>
+      <div id="navbar">
+        <a href="main.html">Chapter Overview</a>
+        <a href=".who">Who We Are</a>
+        <a href="leadership">Contact</a>
+      </div>
+      <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      </script>
+    </body>
   </html>
