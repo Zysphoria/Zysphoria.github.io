@@ -40,3 +40,17 @@
 .sticky + .content {
   padding-top: 60px;
 }
+
+body {
+  position: relative;
+}
+
+#main {
+  padding-top:50px;
+  height:500px;color: #fff;
+  background-color: #1E88E5;
+ }
+
+ #main a:hover {
+   color: blue;
+ }
