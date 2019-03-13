@@ -1,6 +1,9 @@
 .header-nametag {
   color: white;
-  background-color: red;
   text-align: center;
   font-size: 75px;
+}
+
+span {
+    background-image: url("images/02.jpg");
 }
