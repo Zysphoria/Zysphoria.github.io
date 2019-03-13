@@ -2,8 +2,9 @@
   color: white;
   text-align: center;
   font-size: 75px;
+  background-image: url("images\02.jpg");
 }
 
-span {
-    background-image: url("images/02.jpg");
+head {
+
 }
