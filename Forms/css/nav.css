@@ -20,7 +20,27 @@ header {
 
 @font-face {
   font-family: Farray;
-  src: url("FARRAY.otf")
+  src: url("FARRAY.otf");
+}
+
+@font-face {
+  font-family: Parley;
+  src: url("parley regular.ttf")
+}
+
+@font-face {
+  font-family: ParleyBold;
+  src: url("parley bold.ttf")
+}
+
+@font-face {
+  font-family: Blanka;
+  src: url("Blanka-Regular.otf")
+}
+
+@font-face {
+  font-family: Aquatico;
+  src: url("Aquatico-Regular.otf")
 }
 
 header {
@@ -28,18 +48,46 @@ header {
 }
 
 .header-nametag {
-  color: white;
+  color: #fdffe2;
   text-align: center;
   font-size: 50px;
 }
 
 span p {
-  font-size: 25px;
-  padding-bottom: 15px;
+  font-size: 35px;
+  padding-bottom: 5px;
   font-family: Polya;
+  margin-bottom: 0px;
 }
 
 .navbar {
-  padding: 0;
+  text-align center
   width: 100%;
 }
+
+.navbar.center {
+  display: inline-block;
+}
+
+.nav-item {
+  color: #8D8D8D;
+  font-family: Aquatico;
+  font-size: 18px;
+  text-align: center;
+}
+
+.nav-item a {
+  text-align: center;
+  color: #bababa;
+}
+
+.card-body {
+  box-sizing: content-box;
+}
+
+.card-body h3 {
+  font-family: Aquatico;
+  text-align: center;
+}
+
+.card-body
