@@ -1,4 +1,68 @@
+* {
+  padding: 0px;
+}
+
+header {
+  background-image: url("01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Aqua;
+  src: url("aqua.ttf");
+}
+
+@font-face {
+  font-family: Polya;
+  src: url("POLYA.otf");
+}
+
+@font-face {
+  font-family: Farray;
+  src: url("FARRAY.otf");
+}
+
+@font-face {
+  font-family: Parley;
+  src: url("parley regular.ttf")
+}
+
+@font-face {
+  font-family: ParleyBold;
+  src: url("parley bold.ttf")
+}
+
+@font-face {
+  font-family: Blanka;
+  src: url("Blanka-Regular.otf")
+}
+
+@font-face {
+  font-family: Aquatico;
+  src: url("Aquatico-Regular.otf")
+}
+
+@font-face {
+  font-family: Moon;
+  src: url("Moon2.0-Regular.otf")
+}
+
+@font-face {
+  font-family: MoonLight;
+  src: url("Moon2.0-Light.otf")
+}
+
+@font-face {
+  font-family: MoonBold;
+  src: url("Moon2.0-Bold.otf")
+}
+header {
+  font-family: Polya;
+}
+
 .header-nametag {
+<<<<<<< HEAD
   color: white;
   text-align: center;
   font-size: 75px;
@@ -7,4 +71,122 @@
 
 head {
 
+=======
+  color: #ffffff;
+  text-align: left;
+  font-size: 50px;
+}
+
+span p {
+  font-size: 35px;
+  padding-bottom: 5px;
+  font-family: Polya;
+  margin-bottom: 0px;
+}
+
+.navbar {
+  text-align center
+  width: 100%;
+}
+
+.navbar.center {
+  display: inline-block;
+}
+
+.nav-item {
+  color: #8D8D8D;
+  font-family: Aquatico;
+  font-size: 18px;
+  text-align: center;
+}
+
+.nav-item a {
+  text-align: center;
+  color: #bababa;
+}
+
+.nav-item a.hover {
+  color: #969696;
+}
+
+.card-body {
+  box-sizing: content-box;
+    background-color: #dddddd;
+    color: black;
+    padding: 0px;
+}
+
+.card-body h3 {
+  font-family: Polya;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%
+}
+
+.card-body .row1 img {
+  width: 525px;
+  height: 350px;
+  align: center;
+}
+
+.card-body .row2 img {
+  width: 525px;
+  height: 350px;
+  align: center;
+}
+
+.caption p {
+  font-family: Moon;
+  text-align: center;
+}
+
+.row1 .caption p {
+  margin-bottom: 50px;
+}
+
+.row3 img {
+  width: 600px;
+  height: 420px;
+}
+
+.row3 p {
+  font-family: Moon;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+}
+
+.row4 img {
+  margin-top: 20px;
+  width: 600px;
+  height: 420px;
+}
+
+.row4 p {
+  font-family: Moon;
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+  font-size: 25px;
+}
+
+.img15 {
+  position: relative;
+}
+..row5 img {
+  width: 1000px;
+}
+
+.img17 {
+  height: 83%;
+}
+
+.row6 {
+  text-align: center;
+  font-family: Polya;
+  font-size: 100px;
+>>>>>>> 81206effbdf9c112b56693cd1ed10c585e1310e4
 }
