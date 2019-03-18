@@ -62,16 +62,6 @@ header {
 }
 
 .header-nametag {
-<<<<<<< HEAD
-  color: white;
-  text-align: center;
-  font-size: 75px;
-  background-image: url("images\02.jpg");
-}
-
-head {
-
-=======
   color: #ffffff;
   text-align: left;
   font-size: 50px;
@@ -188,5 +178,4 @@ span p {
   text-align: center;
   font-family: Polya;
   font-size: 100px;
->>>>>>> 81206effbdf9c112b56693cd1ed10c585e1310e4
 }
